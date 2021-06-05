@@ -1,3 +1,25 @@
+# Information about this repository
+This repository is a fork from the https://github.com/EpicCash/epic-miner.
+
+The epic project was developed on GitLab by the company Brick Abode and later migrated to Github. The EPIC project is an Open-Source project completely written in Rust.
+
+This fork was created to highlight my contributions when working at Brick Abode with a different GitLab/GitHub account.
+
+All of my contributions can be seen on: https://github.com/EpicCash/epic-miner/commits?author=leonardo-brickabode
+
+Some contributions were lost between project migrations from internal repositories to public repositories.
+
+During this project, I worked with:
+- Adding 2 new Prof of work (PoW) algorithm to the miner, [RandomX](https://github.com/tevador/RandomX) and [ProgPow](https://github.com/ifdefelse/ProgPOW) in addition to supporting the previous PoW (cucko) 
+- Implementing the new consensus algorithm to work with the 3 different Prof of work (PoW) algorithms: Cuckoo, ProgPow, and Random X
+- Changing the blockchain structure to generate the blocks every 1 minute with a deflationary structure
+- Refactoring the blockchain Rest and JSON-RPC APIs
+- Refactoring the rust tests to use the Gherkin Syntax
+- Bug-fixes
+
+**I don't intend to update/develop this repository, check the original repository for code changes and updates.**
+
+
 # Epic Miner
 
 A standalone mining implementation intended for mining epic against a running Epic node.
